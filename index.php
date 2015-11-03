@@ -7,7 +7,7 @@
 
 <!--WeChat
 ====================================================== -->
-<?php require_once "weChat/weChatShareJS.php"; ?>﻿
+<?php include_once 'weChat/weChatShareJS.php'; ?>
 </script>
 </body>
 </html>
