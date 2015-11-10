@@ -38,7 +38,7 @@
             success: function () {
                 // 用户确认分享后执行的回调函数
                 
-                page.postDataShare('share to Timeline');
+                tracking.share('share to Timeline');
             },
             cancel: function () {
                 // 用户取消分享后执行的回调函数
@@ -55,7 +55,7 @@
             success: function () {
                 // 用户确认分享后执行的回调函数
                
-                page.postDataShare('share to friend');
+                tracking.share('share to friend');
             },
             cancel: function () {
                 // 用户取消分享后执行的回调函数
@@ -70,7 +70,7 @@
             success: function () {
                 // 用户确认分享后执行的回调函数
                 
-                page.postDataShare('share to qq');
+                tracking.share('share to qq');
                 //page.postData('share to qq');
             },
             cancel: function () {
@@ -85,7 +85,7 @@
             success: function () {
                 // 用户确认分享后执行的回调函数
                 
-                page.postDataShare('share to weibo');
+                tracking.share('share to weibo');
             },
             cancel: function () {
                 // 用户取消分享后执行的回调函数
