@@ -38,11 +38,11 @@
             success: function () {
                 // 用户确认分享后执行的回调函数
                 
-                tracking.share('share to Timeline');
+                tracking.share('Share on Moments');
             },
             cancel: function () {
                 // 用户取消分享后执行的回调函数
-                // $('.close-bt').click();
+                
             }
         });
         wx.onMenuShareAppMessage({
@@ -55,7 +55,7 @@
             success: function () {
                 // 用户确认分享后执行的回调函数
                
-                tracking.share('share to friend');
+                tracking.share('Send to Chat');
             },
             cancel: function () {
                 // 用户取消分享后执行的回调函数
@@ -70,8 +70,7 @@
             success: function () {
                 // 用户确认分享后执行的回调函数
                 
-                tracking.share('share to qq');
-                //page.postData('share to qq');
+                tracking.share('Share on QQ');
             },
             cancel: function () {
                 // 用户取消分享后执行的回调函数
@@ -84,8 +83,8 @@
             imgUrl: '<?php echo $gWECHATSHAREIMGURL;?>', // 分享图标
             success: function () {
                 // 用户确认分享后执行的回调函数
-                
-                tracking.share('share to weibo');
+
+                tracking.share('Share on Weibo');
             },
             cancel: function () {
                 // 用户取消分享后执行的回调函数
