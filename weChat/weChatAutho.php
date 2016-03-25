@@ -15,14 +15,14 @@
     session_start();
 
     require_once "weChatId.php";
-    
+
     if(!isset($_COOKIE["openid"]) && !isset($_SESSION["openid"]))
     {
-        header("Location:weChat/autho.php"); 
+        header("Location:weChat/autho.php");
     }else
     {
-        $_SESSION['img'] =$_COOKIE['img'];
-        $_SESSION['nickname'] =$_COOKIE['nickname'];
-        $_SESSION['openid'] = $_COOKIE['openid'];
+        $_SESSION['headimgurl'] = $_COOKIE['headimgurl'];
+        $_SESSION['nickname']   = $_COOKIE['nickname'];
+        $_SESSION['openid']     = $_COOKIE['openid'];
     }
 ?>
